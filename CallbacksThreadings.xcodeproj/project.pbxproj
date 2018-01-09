@@ -12,6 +12,7 @@
 		209075AC1FD3892A00593257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209075AA1FD3892A00593257 /* Main.storyboard */; };
 		209075AE1FD3892A00593257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209075AD1FD3892A00593257 /* Assets.xcassets */; };
 		209075B11FD3892A00593257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209075AF1FD3892A00593257 /* LaunchScreen.storyboard */; };
+		209075BB1FD3899400593257 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 209075BA1FD3899400593257 /* data.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		209075AD1FD3892A00593257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209075B01FD3892A00593257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		209075B21FD3892A00593257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209075BA1FD3899400593257 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		209075A51FD3892A00593257 /* CallbacksThreadings */ = {
 			isa = PBXGroup;
 			children = (
+				209075BA1FD3899400593257 /* data.txt */,
 				209075A61FD3892A00593257 /* AppDelegate.swift */,
 				209075A81FD3892A00593257 /* ViewController.swift */,
 				209075AA1FD3892A00593257 /* Main.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					209075A21FD3892A00593257 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209075BB1FD3899400593257 /* data.txt in Resources */,
 				209075B11FD3892A00593257 /* LaunchScreen.storyboard in Resources */,
 				209075AE1FD3892A00593257 /* Assets.xcassets in Resources */,
 				209075AC1FD3892A00593257 /* Main.storyboard in Resources */,
@@ -274,12 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5M2592277G;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CallbacksThreadings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasnoracapps.CallbacksThreadings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +294,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5M2592277G;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CallbacksThreadings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasnoracapps.CallbacksThreadings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
